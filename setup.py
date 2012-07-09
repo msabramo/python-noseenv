@@ -1,11 +1,9 @@
-import sys
-
 from setuptools import setup, find_packages
 
 
 setup(
     name='noseenv',
-    version='0.0',
+    version='0.0.0',
     description='Nose plugin to add options of the form "--env ENVIRONMENT_VARIABLE=VALUE"',
     long_description=open('README.md').read(),
     author='Marc Abramowitz',
@@ -13,7 +11,7 @@ setup(
     license='GPL',
     packages=find_packages(exclude=['ez_setup']),
     install_requires=['Nose>=0.11.0'],
-    url='',
+    url='http://github.com/msabramo/python-noseenv',
     include_package_data=True,
     entry_points="""
         [nose.plugins.0.10]
